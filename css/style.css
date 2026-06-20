@@ -1,4 +1,24 @@
 
+
+:root{
+
+    /*Definição de cores background */
+
+    --background-primary-color: #FFFFFF;
+    --background-secondary-color: #F5F5F5;
+    --background-tertiary-color: #0000;
+
+    /* Definição de cores dos botões */
+
+    --button-primary-color:  #8F0101;
+    --button-secundary-color: #B81515;
+
+    /* Definição da cor de texto */
+    
+    --text-primary-color: #222222;
+    --text-secundary-color: #FFFFFF;
+}
+
 /*
 Arquivo CSS Reset
 */
