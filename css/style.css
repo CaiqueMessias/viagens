@@ -1,5 +1,18 @@
 
 
+/* Arquivos de fonte */
+
+@font-face{
+
+    font-family: "Montserrat"; /* Nome da família de fonte */
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf'); /* URL da localização da fonte */
+    font-style: normal; /* Estilo da fonte */
+    font-display: swap; /* Arquivo caso a fonte original não carregue */
+
+}
+
+/* Configuração das cores padrões */
+
 :root{
 
     /*Definição de cores background */
@@ -10,13 +23,19 @@
 
     /* Definição de cores dos botões */
 
-    --button-primary-color:  #8F0101;
-    --button-secundary-color: #B81515;
+    --primary-color:  #8F0101;
+    --secundary-color: #B81515;
 
     /* Definição da cor de texto */
     
     --text-primary-color: #222222;
     --text-secundary-color: #FFFFFF;
+
+    /* Definição dos pesos */
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 /*
